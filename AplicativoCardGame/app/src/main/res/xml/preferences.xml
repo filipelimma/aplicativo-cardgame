@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Categoria de Aparência -->
+    <PreferenceCategory app:title="@string/pref_category_appearance">
+
+        <!--
+            LISTPREFERENCE PARA O TEMA
+            Isso vai abrir uma caixa de diálogo com as opções "Light", "Dark", "System Default".
+            É o componente mais robusto para isso.
+        -->
+        <ListPreference
+            app:key="@string/pref_key_theme"
+            app:title="@string/pref_title_theme"
+            app:summary="%s"
+            app:defaultValue="light"
+            app:entries="@array/theme_entries"
+            app:entryValues="@array/theme_values"
+            app:useSimpleSummaryProvider="true" /> <!-- Isso mostra o valor selecionado no resumo -->
+
+        <!--
+            LISTPREFERENCE PARA O IDIOMA
+            Mesma lógica, abre uma caixa de diálogo com "English" e "Portuguese".
+        -->
+        <ListPreference
+            app:key="@string/pref_key_language"
+            app:title="@string/pref_title_language"
+            app:summary="%s"
+            app:defaultValue="en"
+            app:entries="@array/language_entries"
+            app:entryValues="@array/language_values"
+            app:useSimpleSummaryProvider="true" /> <!-- Mostra o idioma selecionado no resumo -->
+
+    </PreferenceCategory>
+
+    <!-- Categoria de Comportamento -->
+    <PreferenceCategory app:title="@string/pref_category_behavior">
+
+        <ListPreference
+            app:key="@string/pref_key_sort_order"
+            app:title="@string/pref_title_sort_order"
+            app:summary="%s"
+            app:defaultValue="alpha_asc"
+            app:entries="@array/sort_order_entries"
+            app:entryValues="@array/sort_order_values"
+            app:useSimpleSummaryProvider="true"/>
+
+        <SwitchPreferenceCompat
+            app:key="@string/pref_key_suggestion"
+            app:title="@string/pref_title_suggestion"
+            app:summary="@string/pref_summary_suggestion"
+            app:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

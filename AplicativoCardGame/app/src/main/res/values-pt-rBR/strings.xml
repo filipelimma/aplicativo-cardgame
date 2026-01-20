@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicativo CardGame</string>
+    <string name="example_task1">Coletar cartas</string>
+    <string name="example_desc1">Coletar cartas raras para o deck</string>
+    <string name="example_task2">Treinar batalhas</string>
+    <string name="example_desc2">Praticar combos e estratégias</string>
+
+    <string name="priority_label">Pri: </string>
+
+    <string name="hint_title">Título</string>
+    <string name="hint_description">Descrição</string>
+    <string name="hint_due">Data</string>
+    <string name="about">Sobre</string>
+    <string name="about_message">Aplicativo CardGame\nVersão 1.0\nDesenvolvido por Filipe Nogueira</string>
+    <string name="add_task">Adicionar Tarefa</string>
+    <string name="pref_category_appearance">Aparência</string>
+    <string name="pref_category_behavior">Comportamento</string>
+    <string name="pref_title_theme">Tema</string>
+    <string-array name="theme_entries">
+        <item>Claro</item>
+        <item>Escuro</item>
+        <item>Padrão do Sistema</item>
+    </string-array>
+    <string name="btn_save">Salvar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="pref_title_language">Idioma</string>
+    <string-array name="language_entries">
+        <item>Inglês</item>
+        <item>Português (Brasil)</item>
+    </string-array>
+    <string name="action_add">Adicionar</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_autoria">Autoria</string>
+    <string name="pref_title_sort_order">Ordem de Classificação</string>
+    <string name="pref_title_suggestion">Habilitar sugestões</string>
+    <string name="pref_summary_suggestion">Mostrar sugestões ao preencher campos</string>
+    <string-array name="sort_order_entries">
+        <item>Alfabética (A-Z)</item>
+        <item>Alfabética (Z-A)</item>
+    </string-array>
+    <string name="context_delete">Remover</string>
+    <string name="toast_task_deleted">Tarefa removida</string>
+    <string name="toast_title_required">Título é obrigatório</string>
+    <string name="settings">Configurações</string>
+    <string name="exit">Sair</string>
+    <string name="author_title">Autoria</string>
+    <string name="author_description">Filipe Antonio de Lima Nogueira</string>
+    <!-- Adicione estas strings traduzidas ao seu res/values-pt-rBR/strings.xml -->
+
+    <!-- Strings para a Tela de Autoria (Sobre) -->
+    <string name="about_utfpr_logo_desc">Logo da UTFPR</string>
+    <string name="about_utfpr_name">Universidade Tecnológica Federal do Paraná</string>
+    <string name="about_app_description">Este aplicativo foi desenvolvido para gerenciar tarefas e coleções, ideal para organizar seus cards de jogos e atividades relacionadas. Registre, edite e organize tudo em um só lugar!</string>
+    <string name="about_author_title">Desenvolvido por</string>
+    <string name="about_author_name">Filipe Antonio de Lima Nogueira</string>
+    <string name="about_author_course">Engenharia de Computação</string>
+    <string name="about_author_email">filipenogueira@alunos.utfpr.edu.br</string>
+    <!-- Novas strings adicionadas -->
+    <string name="action_categories">Categorias</string>
+    <string name="label_priority">Prioridade: </string>
+    <string name="label_due_date">Data limite</string>
+    <string name="btn_pick_date">Selecionar data</string>
+    <string name="no_date_selected">Nenhuma data selecionada</string>
+    <string name="label_category">Categoria</string>
+    <string name="add_category">Adicionar categoria</string>
+    <string name="hint_category_name">Nome da categoria</string>
+    <string name="toast_category_name_required">O nome da categoria é obrigatório</string>
+    <string name="toast_category_deleted">Categoria excluída</string>
+    <string name="confirm_delete_task">Deseja realmente excluir esta tarefa?</string>
+    <string name="confirm_delete_category">Deseja realmente excluir a categoria?</string>
+
+    <string name="pref_language">Idioma</string>
+    <string name="pref_theme">Tema</string>
+    <string name="pref_sort">Ordenação</string>
+    <string name="select_category_prompt">Selecionar</string>
+    <string name="select_category_prompt_pt">Selecionar</string>
+
+
+
+    <string-array name="pref_sort_names">
+        <item>Crescente</item>
+        <item>Decrescente</item>
+    </string-array>
+    <string-array name="pref_sort_values">
+        <item>asc</item>
+        <item>desc</item>
+    </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<resources>
+    <string-array name="titulos">
+        <item>Criar cartas iniciais</item>
+        <item>Definir regras básicas</item>
+        <item>Montar protótipo físico</item>
+        <item>Testar jogabilidade</item>
+        <item>Equilibrar poderes</item>
+        <item>Revisar artes</item>
+        <item>Criar manual</item>
+        <item>Testar multiplayer</item>
+        <item>Corrigir bugs</item>
+        <item>Preparar pitch</item>
+    </string-array>
+
+    <string-array name="descricoes">
+        <item>Desenhar 20 cartas iniciais</item>
+        <item>Organizar mecânicas principais</item>
+        <item>Usar papel/cartolina</item>
+        <item>Fazer primeira partida</item>
+        <item>Ajustar força das criaturas</item>
+        <item>Revisar design gráfico</item>
+        <item>Escrever explicações</item>
+        <item>Testar em grupo de amigos</item>
+        <item>Corrigir erros nas regras</item>
+        <item>Montar apresentação</item>
+    </string-array>
+
+    <string-array name="prioridades">
+        <item>Alta</item>
+        <item>Média</item>
+        <item>Baixa</item>
+        <item>Alta</item>
+        <item>Alta</item>
+        <item>Média</item>
+        <item>Baixa</item>
+        <item>Média</item>
+        <item>Alta</item>
+        <item>Média</item>
+    </string-array>
+
+    <string-array name="prazos">
+        <item>01/10/2025</item>
+        <item>05/10/2025</item>
+        <item>10/10/2025</item>
+        <item>12/10/2025</item>
+        <item>15/10/2025</item>
+        <item>20/10/2025</item>
+        <item>22/10/2025</item>
+        <item>25/10/2025</item>
+        <item>28/10/2025</item>
+        <item>30/10/2025</item>
+    </string-array>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CardGame App</string>
+    <string name="example_task1">Collect cards</string>
+    <string name="example_desc1">Collect rare cards for deck</string>
+    <string name="example_task2">Battle practice</string>
+    <string name="example_desc2">Practice combos and strategies</string>
+    <string name="about">Sobre</string>
+    <string name="pref_key_sort_order" translatable="false">sort_order</string>
+    <string name="pref_key_suggestion" translatable="false">suggestion</string>
+    <string name="about_message">Aplicativo CardGame\nVersão 1.0\nDesenvolvido por Filipe Nogueira</string>
+    <string name="add_task">Adicionar Tarefa</string> <!-- Para a descrição do botão FAB -->
+    <string name="pref_key_theme" translatable="false">theme_key</string>
+    <string name="pref_key_language" translatable="false">language_key</string>
+    <string name="pref_category_appearance">Appearance</string>
+    <string name="pref_category_behavior">Behavior</string>
+    <string name="settings">Configurações</string>
+    <string name="exit">Sair</string>
+    <string name="priority_label">Pri: </string>
+    <string name="pref_title_theme">Theme</string>
+    <string-array name="theme_entries">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+    <string-array name="theme_values" translatable="false">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Portuguese (Brazil)</item>
+    </string-array>
+    <string-array name="language_values" translatable="false">
+        <item>en</item>
+        <item>pt</item>
+    </string-array>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_due">Due date</string>
+    <string name="pref_title_language">Language</string>
+    <!-- Strings para a Tela de Autoria (Sobre) -->
+    <string name="about_utfpr_logo_desc">Logo da UTFPR</string>
+    <string name="about_utfpr_name">Universidade Tecnológica Federal do Paraná</string>
+    <string name="about_app_description">Este aplicativo foi desenvolvido para gerenciar tarefas e coleções, ideal para organizar seus cards de jogos e atividades relacionadas. Registre, edite e organize tudo em um só lugar!</string>
+    <string name="about_author_title">Desenvolvido por</string>
+    <string name="about_author_name">Filipe Antonio de Lima Nogueira</string>
+    <string name="about_author_course">Engenharia de Computação</string>
+    <string name="about_author_email">filipenogueira@alunos.utfpr.edu.br</string>
+    <!-- Em res/values/strings.xml (inglês) -->
+    <string name="action_categories">Categories</string>
+    <string name="label_priority">Priority: </string>
+    <string name="label_due_date">Due date</string>
+    <string name="btn_pick_date">Pick date</string>
+    <string name="no_date_selected">No date selected</string>
+    <string name="label_category">Category</string>
+    <string name="add_category">Add Category</string>
+    <string name="hint_category_name">Category name</string>
+    <string name="toast_category_name_required">Category name is required</string>
+    <string name="toast_category_deleted">Category deleted</string>
+    <string name="confirm_delete_task">Do you really want to delete this task?</string>
+    <string name="confirm_delete_category">Do you really want to delete category?</string>
+
+    <string name="select_category_prompt">Select category</string>
+    <string name="select_category_prompt_pt">Selecione a categoria</string>
+
+
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="pref_title_sort_order">Sort order</string>
+    <string name="pref_title_suggestion">Enable suggestions</string>
+    <string name="pref_summary_suggestion">Show suggestions when filling fields</string>
+    <string-array name="sort_order_entries">
+        <item>Alphabetical (A-Z)</item>
+        <item>Alphabetical (Z-A)</item>
+    </string-array>
+    <string-array name="sort_order_values" translatable="false">
+        <item>alpha_asc</item>
+        <item>alpha_desc</item>
+    </string-array>
+    <string name="action_add">Add</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_autoria">About</string>
+
+    <string name="context_delete">Delete</string>
+    <string name="toast_task_deleted">Task deleted</string>
+    <string name="toast_title_required">Title is required</string>
+
+    <string name="author_title">Author</string>
+    <string name="author_description">Filipe Antonio de Lima Nogueira</string>
+
+    <!-- preferences -->
+    <string name="pref_language">Language</string>
+    <string name="pref_theme">Theme</string>
+    <string name="pref_sort">Sort order</string>
+
+    <string-array name="pref_sort_names">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </string-array>
+    <string-array name="pref_sort_values">
+        <item>asc</item>
+        <item>desc</item>
+    </string-array>
+
+        <!-- Add these missing strings -->
+        <string name="menu_restaurar" translatable="false">Restaurar Padrões</string>
+        <string name="menu_sair" translatable="false">Sair</string>
+        <string name="pref_suggestion" translatable="false">Sugestão</string>
+
+
+</resources>

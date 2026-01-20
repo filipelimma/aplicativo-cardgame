@@ -1,0 +1,6 @@
+<!-- Em app/src/main/res/values/themes.xml -->
+<resources>
+    <style name="Theme.AplicativoCardGame" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- ... outros itens de customização ... -->
+    </style>
+</resources>
